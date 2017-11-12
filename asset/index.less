@@ -1,0 +1,161 @@
+.oxmod-ctrip-ticket-nav{
+/* CSS */
+	>h3{
+		height: 40px;
+		line-height: 40px;
+		font-size:14px;
+		padding:0 10px;
+		border-bottom: 1px #ececec solid;
+		font-weight: 400;
+	}
+	.bt-more{
+		float: right;
+		font-size:12px;
+		color:#666;
+	}
+	.tickets{
+		overflow: hidden;
+		margin:5px;
+
+	}
+	.ticket{
+		width:50%;
+		-webkit-box-sizing: border-box;
+		float:left;
+		border:2px #fff solid;
+		overflow: hidden;
+		border-radius: 8px;
+		dt{
+			background-color: #41b3fc;
+			color:#fff;
+			padding:16px 10px;
+			line-height: 1.6;
+		}
+		dd{
+			background-color: #f5f5f5;
+			padding:10px;
+		}
+		dd.sep{
+			height: 0px;
+			padding:0;
+			position: relative;
+			top:-5px;
+			&:before{
+				width:10px;
+				height:10px;
+				//position: absolute;
+				background-color: #fff;
+				border-radius: 50%;
+				content: '';
+				display: inline-block;
+				float: left;
+				margin-left:-5px;
+			}
+			&:after{
+				width:10px;
+				height:10px;
+				//position: absolute;
+				background-color: #fff;
+				border-radius: 50%;
+				content: '';
+				display: inline-block;
+				float: right;
+				margin-right:-5px;
+			}
+		}
+	}
+	.arrow{
+		font-size: 30px;
+		display: inline-block;
+		line-height: 1;
+		font-style: normal;
+		vertical-align: middle;
+		padding:0 10px;
+		font-weight: 700;
+	}
+	.tag{
+		float: right;
+		margin-top:-16px;
+		margin-right: -10px;
+		background-color: #2e7db0;
+		line-height: 1;
+		padding:2px 5px;
+		border-bottom-left-radius: 8px;
+		font-size:12px;
+	}
+	.time{
+		color:#aef;
+	}
+	.price{
+		
+		font-style: normal;
+		color:#f60;
+		font-size: 14px;
+		font-weight: 700;
+		&:before{
+			content: '\a5\20';
+			font-size: 10px;
+			font-weight: 400;
+		}
+		&:after{
+			content: '\20起';
+			font-size: 10px;
+			color:#999;
+			font-weight: 400;
+		}
+
+	}
+	.discount{
+		display: inline-block;
+		background-color: #f90;
+		color:#fff;
+		font-size:11px;
+		line-height: 1;
+		padding:2px 5px 2px 2px;
+		margin-left: 10px;
+		border-radius: 3px;
+		&:after{
+			content: '折';
+		}
+		&:before{
+			content: '';
+			width:0;
+			height:0;
+			border-style:solid;
+			border-width: 5px;
+			border-color: transparent #f90 transparent transparent;
+			position: absolute;
+			margin-left: -10px;
+		}
+	}
+	.icon{
+		width:45px;
+		vertical-align: middle;
+		float:right;
+		margin-right: -42px;
+	}
+	.nav{
+		margin:-3px 5px;
+	}
+	.nav-item{
+		display: inline-block;
+		width:50%;
+		-webkit-box-sizing: border-box;
+		border:2px #fff solid;
+		background-color: #f5f5f5;
+		padding:10px 50px 10px 10px;	
+		color:#333;
+		line-height: 1.6;
+		overflow: hidden;
+	}
+	.info{
+		vertical-align: middle;
+		display: inline-block;
+	}
+	.subtitle{
+		font-size:12px;
+		color:#999;
+		font-style: normal;
+	}
+
+ }
