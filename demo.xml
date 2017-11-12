@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="demo.xsl"?>
+<root>
+    <env>
+        <domain>local</domain>
+    </env>
+    <login>
+        <uid>git/wurui</uid>
+    </login>
+    <p>
+        <title>demo page</title>
+        <desc>this is deme page</desc>
+        <owner>openxsl</owner>
+        <icon>//oxm1.cc/img/app_default.png</icon>
+    </p>
+    <data>
+            <product-list>
+        <i>
+            <title>
+                powerful laptop
+            </title>
+            <brief>
+                car
+            </brief>
+            <price>
+                3713.65
+            </price>
+            <img>
+                //a.oxm1.cc/img/fox.jpg
+            </img>
+            <href>
+                //a.oxm1.cc/img/fox.jpg
+            </href>
+            <tags>
+                <i>
+                    laptop
+                </i>
+            </tags>
+            <id>
+                notebook
+            </id>
+            <orig_price>
+                0.17
+            </orig_price>
+            <inventory>
+                825
+            </inventory>
+        </i>
+    </product-list>
+    <table-menu>
+        <i>
+            <icon>
+                //a.oxm1.cc/img/fox.jpg
+            </icon>
+            <title>
+                tough laptop
+            </title>
+            <tag>
+                notebook
+            </tag>
+            <color>
+                powerful mobilephone
+            </color>
+            <href>
+                //a.oxm1.cc/img/fox.jpg
+            </href>
+        </i>
+        <i>
+            <icon>
+                //a.oxm1.cc/img/fox.jpg
+            </icon>
+            <title>
+                tough camera
+            </title>
+            <tag>
+                screen
+            </tag>
+            <color>
+                good watch
+            </color>
+            <href>
+                //a.oxm1.cc/img/fox.jpg
+            </href>
+        </i>
+        <i>
+            <icon>
+                //a.oxm1.cc/img/fox.jpg
+            </icon>
+            <title>
+                wallet
+            </title>
+            <tag>
+                screen
+            </tag>
+            <color>
+                light-weight mobilephone
+            </color>
+            <href>
+                //a.oxm1.cc/img/fox.jpg
+            </href>
+        </i>
+    </table-menu>
+    </data>
+</root>
