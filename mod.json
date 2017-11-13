@@ -1,6 +1,6 @@
 {
   "name": "ctrip-ticket-nav",
   "version": "0.0.1",
-  "apiDependencies": ["product-list","table-menu"]
+  "apiDependencies": ["airline-ticket","table-menu"]
 }
 
